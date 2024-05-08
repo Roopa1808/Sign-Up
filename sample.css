@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.leftside {
+    width: 70vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.937);
+}
+
+.rightside {
+    width: 30vw;
+    height: 100vh;
+    background-color: rgb(10, 178, 143);
+}
+
+#text1,
+#text2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#text1 {
+    font-size: 50px;
+    margin-top: 170px;
+}
+
+#text2 {
+    font-size: 18px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.716);
+    font-weight: lighter;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+    display: inline-block;
+    border: 1px none red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding-top: 13px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.circle1 {
+    margin-left: 450px;
+    background-color: rgba(46, 46, 119, 0.916);
+}
+
+.circle2 {
+    margin-left: 20px;
+    background-color: rgba(214, 80, 86, 0.938);
+}
+
+.circle3 {
+    margin-left: 20px;
+    background-color: rgba(46, 46, 119, 0.916);
+}
+
+h5 {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    font-size: 12px;
+    align-items: center;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.816);
+    column-gap: 0.3rem;
+}
+
+h5::before,
+h5::after {
+    content: "";
+    height: 2px;
+    width: 16vw;
+    background-color: gainsboro;
+    display: block;
+
+}
+
+h5::before {
+    margin-left: 290px;
+}
+
+input {
+    border-style: none;
+    height: 50px;
+    width: 50%;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(128, 128, 128, 0.679);
+    margin-left: 275px;
+    border-radius: 19px;
+    text-indent: 10px;
+    background-color: rgba(128, 128, 128, 0.108);
+    font-weight: bold;
+    outline-style: none;
+}
+
+#button,
+#button1 {
+    border-style: none;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.6px;
+}
+
+#button {
+    width: 20%;
+    color: white;
+    background-color: rgb(10, 178, 143);
+    margin-left: 430px;
+}
+
+#text3,
+#text4,
+#text5 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#text3 {
+    font-size: 50px;
+    margin-top: 280px;
+}
+
+#text4,
+#text5 {
+    line-height: 28px;
+    margin-top: 10px;
+    font-size: 19px;
+    letter-spacing: 0.4px;
+    font-weight: lighter;
+}
+
+#button1 {
+    width: 50%;
+    margin-top: 35px;
+    margin-left: 130px;
+}
