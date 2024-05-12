@@ -1,0 +1,152 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.sign {
+    position: relative;
+}
+
+.box {
+    height: 650px;
+    width: 440px;
+    background-color: rgba(17, 14, 14, 0.947);
+    margin-left: 37%;
+    position: absolute;
+    z-index: 1;
+}
+
+#logo {
+    margin-left: 10%;
+    opacity: 0.7;
+    color: red;
+}
+
+.logo {
+    margin-top: -54%;
+}
+
+.text {
+    font-size: 40px;
+    color: white;
+    margin-top: 14%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 3rem;
+}
+
+input {
+    border: 1px solid rgba(255, 255, 255, 0.322);
+    height: 60px;
+    width: 75%;
+    margin-left: 12%;
+    background-color: rgba(28, 25, 25, 0.879);
+    border-radius: 5px;
+    text-indent: 1rem;
+    font-size: 16px;
+}
+
+#email {
+    margin-top: 30px;
+
+}
+
+#password {
+    margin-top: 0px;
+    margin-top: 20px;
+}
+
+#button,
+#button1 {
+
+    height: 44px;
+    width: 76%;
+    margin-left: 11.5%;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 13px;
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.907);
+}
+
+button:hover {
+
+    background-color: rgb(217, 33, 33);
+}
+
+#button1 {
+    background-color: rgba(255, 255, 255, 0.136);
+    border-style: none;
+}
+
+#button1:hover {
+    background-color: rgba(234, 213, 213, 0.19);
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+#checkbox {
+    height: 17px;
+    width: 75%;
+    margin-left: -25%;
+    margin-top: 22.8px;
+    color: rgb(12, 12, 13);
+}
+
+#remember {
+    color: white;
+    margin-left: -33%;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.682);
+    text-indent: 3rem;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-top: -2px;
+}
+
+a {
+    color: white;
+    text-indent: 1px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h5 {
+    color: rgba(255, 255, 255, 0.573);
+    text-indent: 3rem;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#learnmore {
+    color: blue;
+}
+
+#learnmore:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
